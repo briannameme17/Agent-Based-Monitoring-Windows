@@ -102,7 +102,7 @@ From a compliance and governance perspective, these issues highlight the importa
 - Outdated Microsoft Teams, Outlook, and Notepad versions
 - Missing Windows security updates
 
-**Recommended Solutions**
+**Solutions**
 - Apply all pending Windows Updates
 - Update Microsoft Teams and Outlook to the latest supported versions
 - Enforce automated patching for third-party applications
@@ -115,7 +115,7 @@ From a compliance and governance perspective, these issues highlight the importa
 **Issues**
 - Outdated Windows Defender signature definitions
 
-**Recommended Solutions**
+**Solutions**
 - Force antivirus definition updates
 - Ensure real-time protection is enabled
 - Monitor AV status via continuous agent-based scanning
@@ -127,7 +127,7 @@ From a compliance and governance perspective, these issues highlight the importa
 **Issues**
 - WinVerifyTrust CVE-2013-3900 mitigation not enabled
 
-**Recommended Solutions**
+**Solutions**
 - Enable `EnableCertPaddingCheck` to enforce proper certificate validation
 - Apply Microsoft-recommended cryptographic hardening settings
 - Re-scan to confirm mitigation enforcement
@@ -136,7 +136,7 @@ From a compliance and governance perspective, these issues highlight the importa
 
 ### 4. Continuous Monitoring & Governance
 
-**Recommended Practices**
+**Practices**
 - Maintain Nessus Agents on critical endpoints
 - Schedule regular or triggered agent scans
 - Track vulnerability trends over time
@@ -158,6 +158,3 @@ This project demonstrates the value of **agent-based vulnerability monitoring** 
 
 ---
 
-## Disclaimer
-
-This project was conducted in a **controlled lab environment** for educational and portfolio purposes. Systems were intentionally left unpatched to simulate realistic vulnerability scenarios.
